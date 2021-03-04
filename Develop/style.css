@@ -21,13 +21,14 @@ body {
   font-style: italic;
 }
 
-.text-input {
+.form-control {
   border: .5px solid rgba(0, 0, 0, 0.3);
   background-color: rgba(128, 123, 123, 0.143);
   height: 60px;
   line-height: 60px;
   margin: 3px;
   text-align: center;
+  rows: 3;
 }
 
 .btn-primary {
