@@ -31,9 +31,13 @@ body {
   rows: 3;
 }
 
-.btn-primary {
+.saveButton {
   height: 60px;
   vertical-align: middle;
   margin: 3px; 
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 15px;
   /* margin-bottom: 3px; */
 }
