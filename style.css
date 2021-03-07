@@ -4,12 +4,21 @@ body {
   line-height: 1;
 } 
 
+.workDay {
+  font-size: 4em;
+  color: blue;
+  text-align: center;
+  font-style: italic;
+}
+
 .jumbotron {
   text-align: center;
   background-color: rgba(128, 123, 123, 0.143);
   color: blue;
   border-radius: 0;
   border-bottom: 10px solid black;
+  font-size: 1em;
+  font-style: italic;
 }
 
 .time-slot {
