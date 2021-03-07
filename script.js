@@ -1,3 +1,4 @@
+// printing the date to top of page with moment.js
 var currentDate = moment().format('MM-DD-YYYY');
 printedDate.innerText = ("Current Date:" + "  " + currentDate);
 
