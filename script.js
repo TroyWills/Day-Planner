@@ -1,9 +1,9 @@
-// var currentDate = moment();
+var currentDate = moment();
 // console.log(currentDate);
 
-// function displayTime() {
-//     document.write(currentDate);
-// }
+function displayTime() {
+  document.write(currentDate);
+}
 
 // saveButton on click event to store calendar time and event into local storage 
 $(".saveButton").on("click", function() {

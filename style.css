@@ -19,9 +19,11 @@ body {
   margin: 3px;
   text-align: center;
   font-style: italic;
+  border-radius: 15px;
+  max-width: 12%;
 }
 
-.form-control {
+ textarea.form-control {
   border: .5px solid rgba(0, 0, 0, 0.3);
   background-color: rgba(128, 123, 123, 0.143);
   height: 60px;
@@ -29,7 +31,11 @@ body {
   margin: 3px;
   text-align: center;
   rows: 3;
-}
+  resize: none;
+  overflow: hidden;
+  border-radius: 15px;
+} 
+
 
 .saveButton {
   height: 60px;
@@ -39,5 +45,5 @@ body {
   background-color: #007bff;
   border-color: #007bff;
   border-radius: 15px;
-  /* margin-bottom: 3px; */
+  max-width: 12%;
 }
